@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { FC } from "react";
 import { VisuallyHidden } from "@react-aria/visually-hidden";
@@ -19,9 +19,9 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 	classNames,
 }) => {
 	const { theme, setTheme } = useTheme();
-  const isSSR = useIsSSR();
+    const isSSR = useIsSSR();
 
-	const onChange = () => {
+	function onChange() {
 		theme === "light" ? setTheme("dark") : setTheme("light");
 	};
 
@@ -34,7 +34,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 		getWrapperProps,
 	} = useSwitch({
 		isSelected: theme === "light",
-    "aria-label": `Switch to ${theme === "light" ? "dark" : "light"} mode`,
+    /*"aria-label": `Switch to ${theme === "light" ? "dark" : "light"} mode`,*/
 		onChange,
 	});
 
