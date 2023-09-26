@@ -6,6 +6,7 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import Footer from "@/components/footer";
 import clsx from "clsx";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
 	title: {
@@ -42,6 +43,7 @@ export default function RootLayout({
 						<Navbar />
 						<main className="pt-16 flex-grow dark:bg-zinc-800">
 							{children}
+							<Analytics />
 						</main>
 						
 							<Footer />
