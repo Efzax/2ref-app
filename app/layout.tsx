@@ -45,6 +45,7 @@ export default function RootLayout({
       </Script>
 
 
+
 			<body
 				className={clsx(
 					"min-h-screen bg-background antialiased ",
