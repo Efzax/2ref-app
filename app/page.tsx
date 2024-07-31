@@ -197,7 +197,7 @@ export default function Home() {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
             className="bg-orange-500 text-slate-50 shadow-lg py-2 px-5 rounded-full text-lg">
-            Vea todos nuestros servicios
+            Vea todos nuestros servicios (2)
           </motion.button></Link>
         </motion.div>
       </div>
