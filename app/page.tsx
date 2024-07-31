@@ -222,7 +222,7 @@ export default function Home() {
             <div className="mt-20 flex justify-center">
             <div className="mr-5 h-[85px] w-[80px] bg-[url('/Logo-NFPA1.png')] dark:bg-[url('/Logo-NFPA2.png')]">
             </div>
-                  <div className='max-w-[300px]'>
+                  <div className='max-w-[300px] sm:max-w-[250px]'>
                     <strong>Certificado NFPA 70E</strong><br/>
                     <span>Seguridad Eléctrica en Lugares de Trabajo</span>
                   </div>
