@@ -150,7 +150,7 @@ export default function Home() {
              whileInView={{ opacity: 1, y: 0}}
              viewport={{ once: true, amount: 0.5 }}
              transition={{ duration: 1.1 }}
-             className="text-base text-primary font-ligth leading-7">Profesionales certificados. 222</motion.h2>
+             className="text-base text-primary font-ligth leading-7">Profesionales certificados.</motion.h2>
             <motion.p 
             initial={{ opacity: 0, y: 100}}
             whileInView={{ opacity: 1, y: 0}}
@@ -172,7 +172,7 @@ export default function Home() {
                 
                 key={feature.name} className="relative pl-16">
                   <dt className="text-xl font-medium leading-7 ">
-                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                       <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                     </div>
                     {feature.name}
@@ -200,6 +200,14 @@ export default function Home() {
             Vea todos nuestros servicios
           </motion.button></Link>
         </motion.div>
+      </div>
+
+      <div className='mx-auto mt-16 max-w-6xl sm:mt-20 lg:mt-24 lg:max-w-4xl'>
+        <div className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16'>
+        <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                      asdasdasdasd
+                    </div>
+        </div>
       </div>
 
     </section>
