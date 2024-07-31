@@ -219,10 +219,10 @@ export default function Home() {
             </motion.p>
           </div>
 
-            <div className="mt-20 flex max-w-[400px] justify-center">
-            <div className="mr-5 h-min-[85px] w-min-[80px] bg-[url('/Logo-NFPA1.png')] dark:bg-[url('/Logo-NFPA2.png')]">
+            <div className="mt-20 flex justify-center">
+            <div className="mr-5 h-min-[85px] w-min-[85px] bg-[url('/Logo-NFPA1.png')] dark:bg-[url('/Logo-NFPA2.png')]">
             </div>
-                  <div className=''>
+                  <div className='max-w-[300px]'>
                     <strong>Certificado NFPA 70E</strong><br/>
                     <span>Seguridad Eléctrica en Lugares de Trabajo</span>
                   </div>
