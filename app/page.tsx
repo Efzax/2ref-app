@@ -203,6 +203,18 @@ export default function Home() {
       </div>
 
       <div className='mx-auto mt-16 max-w-6xl sm:mt-20 lg:mt-24 lg:max-w-4xl'>
+      <div className="mx-auto max-w-2xl lg:text-center">
+            <motion.p 
+            initial={{ opacity: 0, y: 100}}
+            whileInView={{ opacity: 1, y: 0}}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.8 }} 
+
+            className="mt-2 text-3xl font-medium tracking-tight sm:text-4xl">
+              Capacitados y certificados constantemente
+            </motion.p>
+          </div>
+
         <div className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16'>
         <div className="items-center justify-center">
                       asdasdasdasd
