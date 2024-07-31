@@ -207,7 +207,7 @@ export default function Home() {
 
 
       <div className=" py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-2xl lg:text-center">
             <motion.p 
             initial={{ opacity: 0, y: 100}}
             whileInView={{ opacity: 1, y: 0}}
@@ -219,15 +219,19 @@ export default function Home() {
             </motion.p>
           </div>
 
-        <div className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16'>
-        <div className="items-center justify-center">
-                      asdasdasdasd
-                    </div>
-                    <div className="items-center justify-center">
-                      Personal certificado 
-                      NFPA 70E: Seguridad Eléctrica en Lugares de Trabajo
-                    </div>
-        </div>
+            <div className="flex items-center">
+            <Image
+            className="col-span-2 max-h-24 w-full object-contain lg:col-span-1 my-2"
+            width={415}
+            height={415}
+            src="/c_s_logo.svg"
+            alt="Transistor"
+          />
+                  <div>
+                    <strong>Andrew Alfred</strong>
+                    <span>Technical advisor</span>
+                  </div>
+</div>
       </div>
 
     </section>
