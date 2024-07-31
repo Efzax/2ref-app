@@ -204,7 +204,7 @@ export default function Home() {
 
       <div className='mx-auto mt-16 max-w-6xl sm:mt-20 lg:mt-24 lg:max-w-4xl'>
         <div className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16'>
-        <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+        <div className="items-center justify-center rounded-lg bg-primary">
                       asdasdasdasd
                     </div>
         </div>
