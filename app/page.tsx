@@ -220,14 +220,9 @@ export default function Home() {
           </div>
 <div className='pt-15'>
             <div className="flex items-center ">
-            <Image
-            className="col-span-2 max-h-24 max-w-24 object-contain lg:col-span-1 my-2"
-            width={250}
-            height={250}
-            src="/Logo-NFPA.png"
-            alt="Transistor"
-          />
-                  <div>
+            <div className="py-24 bg-[url('/back.jpg')] dark:bg-[url('/back_dark.jpg')]">
+            </div>
+                  <div className='te'>
                     <strong>Andrew Alfred</strong><br/>
                     <span>Technical advisor</span>
                   </div>
