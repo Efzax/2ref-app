@@ -219,12 +219,12 @@ export default function Home() {
             </motion.p>
           </div>
 
-            <div className="flex items-center">
+            <div className="flex items-center pt-15">
             <Image
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1 my-2"
-            width={415}
-            height={415}
-            src="/c_s_logo.svg"
+            width={250}
+            height={250}
+            src="/Logo-NFPA.png"
             alt="Transistor"
           />
                   <div>
