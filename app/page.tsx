@@ -219,7 +219,7 @@ export default function Home() {
             </motion.p>
           </div>
 <div className='pt-15'>
-            <div className="flex items-center ">
+            <div className="flex items-center max-w-[400px]">
             <div className="mr-5 h-[85px] w-[80px] bg-[url('/Logo-NFPA1.png')] dark:bg-[url('/Logo-NFPA2.png')]">
             </div>
                   <div className='te'>
