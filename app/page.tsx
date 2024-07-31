@@ -150,7 +150,7 @@ export default function Home() {
              whileInView={{ opacity: 1, y: 0}}
              viewport={{ once: true, amount: 0.5 }}
              transition={{ duration: 1.1 }}
-             className="text-base text-primary font-ligth leading-7">Profesionales certificados.</motion.h2>
+             className="text-base text-primary font-ligth leading-7">Profesionales certificados. 222</motion.h2>
             <motion.p 
             initial={{ opacity: 0, y: 100}}
             whileInView={{ opacity: 1, y: 0}}
@@ -197,7 +197,7 @@ export default function Home() {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
             className="bg-orange-500 text-slate-50 shadow-lg py-2 px-5 rounded-full text-lg">
-            Vea todos nuestros servicios (2)
+            Vea todos nuestros servicios
           </motion.button></Link>
         </motion.div>
       </div>
