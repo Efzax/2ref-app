@@ -215,7 +215,7 @@ export default function Home() {
             transition={{ duration: 0.8 }} 
 
             className="mt-2 text-3xl font-medium tracking-tight sm:text-4xl">
-              Capacitados y certificados constantemente
+              Nos capacitamos constantemente para entregarte la mayor seguridad.
             </motion.p>
           </div>
 <div className='pt-15'>
@@ -228,7 +228,7 @@ export default function Home() {
             alt="Transistor"
           />
                   <div>
-                    <strong>Andrew Alfred</strong>
+                    <strong>Andrew Alfred</strong><br/>
                     <span>Technical advisor</span>
                   </div>
 </div></div>
