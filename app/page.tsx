@@ -218,15 +218,15 @@ export default function Home() {
               Nos capacitamos constantemente para entregarte la mayor seguridad.
             </motion.p>
           </div>
-<div className='mt-15'>
-            <div className="flex items-center max-w-[400px] justify-center">
+
+            <div className="mt-20 flex max-w-[400px] justify-center">
             <div className="mr-5 h-[85px] w-[80px] bg-[url('/Logo-NFPA1.png')] dark:bg-[url('/Logo-NFPA2.png')]">
             </div>
-                  <div className='te'>
+                  <div className=''>
                     <strong>Certificado NFPA 70E</strong><br/>
                     <span>Seguridad Eléctrica en Lugares de Trabajo</span>
                   </div>
-</div></div>
+            </div>
       </div>
 
     </section>
