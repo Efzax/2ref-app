@@ -220,7 +220,7 @@ export default function Home() {
           </div>
 
             <div className="mt-20 flex justify-center">
-            <div className="mr-5 h-[85px] w-[85px] bg-[url('/Logo-NFPA1.png')] dark:bg-[url('/Logo-NFPA2.png')]">
+            <div className="mr-5 h-[85px] w-[80px] bg-[url('/Logo-NFPA1.png')] dark:bg-[url('/Logo-NFPA2.png')]">
             </div>
                   <div className='max-w-[300px]'>
                     <strong>Certificado NFPA 70E</strong><br/>
