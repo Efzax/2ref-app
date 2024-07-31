@@ -202,8 +202,12 @@ export default function Home() {
         </motion.div>
       </div>
 
+
+
+
+
+      <div className=" py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl lg:text-center">
             <motion.p 
             initial={{ opacity: 0, y: 100}}
             whileInView={{ opacity: 1, y: 0}}
