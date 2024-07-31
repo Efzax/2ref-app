@@ -220,7 +220,7 @@ export default function Home() {
           </div>
 <div className='pt-15'>
             <div className="flex items-center ">
-            <div className="mr-5 h-[85px] w-[80px] bg-[url('/Logo-NFPA.png)] dark:bg-[url('/Logo-NFPA2.png')]">
+            <div className="mr-5 h-[85px] w-[80px] bg-[url('/Logo-NFPA1.png)] dark:bg-[url('/Logo-NFPA2.png')]">
             </div>
                   <div className='te'>
                     <strong>Andrew Alfred</strong><br/>
