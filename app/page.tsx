@@ -220,7 +220,7 @@ export default function Home() {
           </div>
 <div className='pt-15'>
             <div className="flex items-center ">
-            <div className="py-24 bg-[url('/back.jpg')] dark:bg-[url('/back_dark.jpg')]">
+            <div className="h-12 w-12 bg-[url('/back.jpg')] dark:bg-[url('/back_dark.jpg')]">
             </div>
                   <div className='te'>
                     <strong>Andrew Alfred</strong><br/>
