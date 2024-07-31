@@ -218,10 +218,10 @@ export default function Home() {
               Capacitados y certificados constantemente
             </motion.p>
           </div>
-
-            <div className="flex items-center pt-15">
+<div className='pt-15'>
+            <div className="flex items-center ">
             <Image
-            className="col-span-2 max-h-24 max-w-24 object-contain lg:col-span-1 my-2"
+            className=""
             width={250}
             height={250}
             src="/Logo-NFPA.png"
@@ -231,7 +231,7 @@ export default function Home() {
                     <strong>Andrew Alfred</strong>
                     <span>Technical advisor</span>
                   </div>
-</div>
+</div></div>
       </div>
 
     </section>
